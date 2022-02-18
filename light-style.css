@@ -1,0 +1,69 @@
+body .light , html .light{
+    background: linear-gradient(to right, #f7f3ef, #ffffff);
+    color: black;
+}
+
+.light nav.scroll {
+    background: rgb(2,0,36);
+    opacity: 1;
+}
+  
+.light .headers {
+    color: #090979;
+}
+
+.light #resume-head{
+    color: white;
+}
+
+.light #img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.315)), url(arpi.jpg);
+  }
+
+.light .box1 {
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.671) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.light .container {
+    background-color: #4346493f;
+}
+
+.light .skill {
+    background-color: #29359e;
+}
+
+.light #resume{
+    background-image: url(lapi.jpg);
+}
+
+
+.light .box3 {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.light .box5 {
+    background-color: rgb(255, 245, 245);
+  }
+
+.light #photos img {
+    border: 0px solid rgba(0, 0, 0, 0.774);
+    box-shadow: rgba(0, 0, 0, 0.568) 0px 10px 20px;
+}
+
+.light .image{
+    background-image: url(sea.jpg);
+}
+
+.light .box4 {
+    background-color: rgb(255, 245, 245);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+}
+
+.light .contact-details, .light #profiles, .light #fotter, .light #mail {
+    color: black;
+}
+
+.light #fotter {
+    color: black;
+}

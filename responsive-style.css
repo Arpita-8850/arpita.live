@@ -1,0 +1,455 @@
+@media (max-width: 768px) {
+    #img {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.363)), url(me.jpg);
+      background-position: center;
+    }
+
+    .light #img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.315)), url(me.jpg);
+      }
+
+    .mobile-nav{ 
+        display: inline;
+    }
+
+    .lapi-nav {
+        display: none;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        background: rgba(0, 0, 0, 0.945);
+    }
+
+    #name{
+        font-family: 'Fleur De Leah', cursive;
+        font-family: 'Parisienne', cursive;
+        font-family: 'Sacramento', cursive;  
+        margin-left: 130px; 
+        margin-bottom: 200px; 
+        font-size: 22px;
+    }
+
+    .light .mobile-nav .topnav, .light #name, .light .mobile-nav .topnav a.icon, .light .mobile-nav .topnav a:hover  {
+        background: rgb(2,0,36);
+    }
+      
+    .topnav #myLinks {
+        display: none;
+    }
+      
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.4vw;
+        display: block;
+    }
+      
+    .topnav a.icon {
+        background: rgba(0, 0, 0, 0.945);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .topnav a:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    .active {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-family: 'Satisfy', cursive;
+    }
+    
+    .caption {
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .typewrite {
+        font-size: 40px;
+    }
+
+    .box1 {
+        width: 70%;
+        height: 80%;
+        padding: 90px 20px 30px 20px;
+        margin-right:10%;
+        margin-left:10%;
+        font-size: 13px;
+        line-height: 20pt;
+    }
+
+    #me2 {
+        display: none;
+    }
+
+    #lapi-languages{
+        display: none;
+    }
+
+    #mobile-languages{
+        display: inline;
+    }
+    
+    .box2 p{
+        font-size: 13px;
+        padding: 0px 50px 0px 50px;
+        line-height: 20pt;
+    }
+
+    .container {
+        background-color: #434649;
+        width: 95%;
+        height: 21px;
+        border-radius: 5px;
+    }
+      
+    .skill {
+        background-color: #36c7d0;
+        padding: 1%;
+        height: 85%;
+        border-radius: 5px;
+    }
+
+    .box3 {
+        padding: 0px; 
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.89);
+    }
+
+    .box3 h2 {
+        font-size: 20px;
+    }
+
+    
+    #table1 td {
+        padding: 10px;
+        font-size: 13px;
+    }
+  
+    #table1 th{
+        border: 2px solid #EEEEEE;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .box3 h3{
+        font-size: 15px;
+        margin-top: 30%;
+    }  
+
+    .box3 .box{
+        width: 150px;
+        padding: 0px 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .box3 .intership {
+        padding-left: 20px;
+        left: 60px;
+        position: justify;
+        font-size: 13px;
+        height:auto;
+        width: 70%;
+        padding-bottom: 60px;
+        margin-top: -50px;
+    }
+
+    .lapi-internship, .lapi-extra-curricular{
+        display: none;
+    }
+    
+    .mobile-internship, .mobile-extra-curricular {
+        display: inline;
+    }      
+
+    .mobile-internship ul, .mobile-extra-curricular ul {
+   
+        margin-top: 0px; 
+        color:white; 
+        line-height: 20pt; 
+        margin-right: -10%;  
+        /* text-align:justify; */
+        padding: 0px 0px 0px 10px ;
+    }
+
+
+    #lapi-project{
+        display: none;
+      }
+
+    #mobile-project{
+        display: inline;
+    }
+    
+    .box5 {
+        width: 50%;
+        height: 70vh;
+        margin-left: 10%;
+    }
+
+    .box5:hover {
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+
+    #photos {
+        /* Prevent vertical gaps */
+        line-height: 5;
+        -webkit-column-count:1;
+        -webkit-column-gap: 0px;
+        -moz-column-count: 3;
+        -moz-column-gap: 0px;
+        column-count: 1;
+        column-gap: 0px;  
+        padding: 60px;
+      }
+
+    .box4 {
+        width: 80%;
+        height: 90%;
+        border-radius: 4px;
+    }
+    
+    iframe {
+        border-radius: 5px; 
+        width: 100%; 
+        height: 60%;
+        margin-left: -25%;
+      }
+    
+    .headers {
+        font-size: 40px;
+        margin-bottom: 5%;
+        font-family: 'Satisfy', cursive;
+    }
+
+    .line {
+     display: none;
+    }
+
+    .hscroll {
+        overflow-x: auto; /* Horizontal */
+    }
+
+    #resume, .image {
+        background-image: url(bg1.jpg);
+    }
+
+    .box3 {
+        padding: 10px; 
+        width: 75%;
+    }
+
+    .fa {
+        height:50px; 
+        padding-right: 5px;
+        margin-top: -100px;
+    }
+        
+    .con-info i,
+    .con-info span {
+        margin-left: 20%;
+    }
+
+    .box5 h1 {
+        font-size: 16px;
+    }
+      
+      .box5 p {
+        font-size: 13px;
+    }
+
+    .box5 {
+        background-color: #17a2b8;
+        width: 70%;
+        height: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        border-radius: 1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        transition: transform 0.2s;  
+        font-family: 'DM Sans', sans-serif;
+    }  
+
+    #download{
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+    
+    .fa {
+        height: 30px; 
+    }
+
+    #fotter {
+        font-size: 13px;
+    }
+
+    
+    .checkbox {
+        opacity: 0;
+        position: absolute;
+    }
+  
+    .label {
+        width: 38px;
+        height: 16px;
+        background-color: #17a2b8;
+        display: flex;
+        border-radius:50px;
+        justify-content: space-between;
+        padding: 5px;
+        position: relative;
+        transform: scale(1.5);
+        box-sizing: border-box;
+        top: 0px;
+        padding-top: 0%;
+    }
+  
+  .ball {
+        width: 14px;
+        height: 14px;
+        margin-top: -1%;
+        transition: transform 0.2s linear;
+    }
+    
+    /*  target the elemenent after the label*/
+    .checkbox:checked + .label .ball{
+        transform: translateX(18px);
+        background-color: white;
+    }
+    
+    .moon, .sun {
+        height: 10px;
+        width: 10px;
+        padding-bottom: 45%;
+    }
+
+    .contact-details {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+      
+    .zoom-nav{ 
+        display: inline;
+    }
+
+    .lapi-nav, .mobile-nav {
+        display: none;
+    }
+
+    .zoom-topnav {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        background: rgba(0, 0, 0, 0.945);
+    }
+
+    .light .zoom-topnav, .light #zoom-name, .light .zoom-topnav a.icon, .light .zoom-topnav a:hover  {
+        background: rgb(2,0,36);
+    }
+      
+    .zoom-topnav #zoom-myLinks {
+        display: none;
+    }
+      
+    .zoom-topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+      
+    .zoom-topnav a.icon {
+        background: rgba(0, 0, 0, 0.945);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .zoom-topnav a:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    .active {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-family: 'Satisfy', cursive;
+    }
+
+    .zoom-label {
+        width: 38px;
+        height: 16px;
+        background-color: #17a2b8;
+        display: flex;
+        border-radius:50px;
+        justify-content: space-between;
+        padding: 5px;
+        position: relative;
+        transform: scale(1.5);
+        box-sizing: border-box;
+        top: 0px;
+        padding-top: 0%;
+    }
+  
+    .ball {
+        width: 14px;
+        height: 14px;
+        margin-top: -3%;
+        transition: transform 0.2s linear;
+    }
+    
+    /*  target the elemenent after the label*/
+    .checkbox:checked + .zoom-label .ball{
+        transform: translateX(18px);
+        background-color: white;
+    }
+    
+    .moon, .sun {
+        height: 10px;
+        width: 10px;
+        padding-bottom: 45%;
+    }
+
+    .contact-details {
+        color: white;
+    }
+
+    .light .contact-details {
+        color: black;
+    }
+
+    #zoom-name{
+        font-family: 'Fleur De Leah', cursive; 
+        font-family: 'Parisienne', cursive;
+        font-family: 'Sacramento', cursive; 
+        margin-left: 130px; 
+        margin-bottom: 200px; 
+        font-size: 22px;
+    }
+  }
