@@ -14,11 +14,11 @@
 - Photo gallery
 - Downdoadable Cv
 
-![alt text](https://github.com/Arpita-8850//arpita.live/blob/master/photo2.png)
+![alt text](https://github.com/Arpita-8850/arpita.live/blob/master/photo2.png)
 
 ## Languages used:
 1. HTML5
 2. CSS
 3. JavaScript
 
-![alt text](https://github.com/Arpita-8850//arpita.live/blob/master/photo3.png)
+![alt text](https://github.com/Arpita-8850/arpita.live/blob/master/photo3.png)
