@@ -281,6 +281,16 @@ label img {
 
 .c{width: 70%;}
 
+.flask{width: 30%}
+
+.js{width: 40%;}
+
+.py{width: 70%;}
+
+.bootstrap{width: 60%;}
+
+.ajax{width: 20%;}
+
 #mobile-languages{
   display: none;
 }
