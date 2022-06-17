@@ -219,7 +219,8 @@
         -moz-column-gap: 0px;
         column-count: 1;
         column-gap: 0px;  
-        padding: 60px;
+        padding: 0;
+        width: 85%;
       }
 
     .box4 {
