@@ -3,8 +3,7 @@
    "version": "1.0.0",
    "description": "",
    "scripts": {
-       "build": "echo \"2MB\" && exit 1",
-       "test": "echo \"2MB\" && exit 1",
+       "build": "npx microbundle",
        "start": "node index.js"
     },
     "repository": {
