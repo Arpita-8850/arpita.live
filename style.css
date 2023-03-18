@@ -217,20 +217,20 @@ label img {
 .box1 {
   background-color:  #1e1e1e; 
   border-radius: 15px; 
-  width: 80%;
-  height: 70%;
-  padding: 10vw 60px 60px 60px;
+  width: 70%;
+  height: 50%;
+  padding: 8vw 60px 40px 60px;
   margin-right:50px;
   margin-left:50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.315);
   font-family: 'DM Sans', sans-serif;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   line-height: 30pt;
 }
 
 #me2{
-  height: 400px; 
-  width: 430px; 
+  height: 300px; 
+  width: 330px; 
   border-radius: 50%;  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.411), 0 6px 20px 0 rgba(0, 0, 0, 0.315); 
   margin-top: -40px; 
@@ -250,7 +250,7 @@ label img {
   font-size: 1.2vw;
   margin-bottom: 10px;
   text-align:justify; 
-  font-size: 27px; 
+  font-size: 1.5vw;
   padding: 0px 90px 0px 90px;
   line-height: 30pt;
 }
@@ -322,7 +322,7 @@ label img {
 #table1 td {
   border: 2px solid #EEEEEE;
   padding: 15px;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   font-family: 'Hind', sans-serif;
 
 }
@@ -346,7 +346,7 @@ label img {
   padding-left: 20px;
   left: 60px;
   position: justify;
-  font-size: 22px;
+  font-size: 17px;
   height:auto;
   width: 70%;
   padding-bottom: 60px;
@@ -425,8 +425,8 @@ label img {
 .box5 {
   background-color: #17a2b8;
   border: solid 1px white;
-  width: 80%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 20px;
   border-radius: 1rem;
@@ -443,20 +443,20 @@ label img {
 }
 
 .box5 h1 {
-  font-size: 1.7vw;
+  font-size: 1.4vw;
   letter-spacing: 5px;
   font-weight: 100px;
   color: #0F044C;
 }
 
 .box5 p {
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 
-.icon {width: 80px;}
+.icon {width: 60px;}
 
 .link {
-  width:45px;
+  width:35px;
   padding-right:15px; 
   padding-left:15px;
 }
